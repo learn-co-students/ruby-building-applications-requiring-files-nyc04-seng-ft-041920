@@ -81,7 +81,7 @@ p lawn.plants
 ```
 
 > **Note**: This code is available in `lib/example.rb` and can be tested by
-running `ruby lib/example.rb`.
+> running `ruby lib/example.rb`.
 
 In the above code, we can call both `Garden` and `Plant` at the end because both
 classes have been defined in the file. Notice, too, that `Garden` includes a
@@ -162,7 +162,7 @@ and checks if any matches are found in the directories located in your shell's
 [PATH variable][].
 
 [require]: https://apidock.com/ruby/v2_5_5/Kernel/require
-[PATH variable]: http://www.linfo.org/path_env_var.html
+[path variable]: http://www.linfo.org/path_env_var.html
 
 We don't often require files using their absolute path, but we will frequently
 require files using a shortened name. You may have already seen this:
